@@ -1,0 +1,1 @@
+docker run -h CONTAINER -it debian /bin/bash
