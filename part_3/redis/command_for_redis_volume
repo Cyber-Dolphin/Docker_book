@@ -1,0 +1,4 @@
+redis-cli -h redis -p 6379
+set "persistence" "test"
+save
+exit
