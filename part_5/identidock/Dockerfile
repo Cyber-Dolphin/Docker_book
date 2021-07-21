@@ -1,6 +1,6 @@
-FROM python:3.4
+FROM python:3.9.6
 
-RUN pip install Flask==1.0.4
+RUN pip install Flask==2.0.1
 WORKDIR /app
 COPY app /app
 
